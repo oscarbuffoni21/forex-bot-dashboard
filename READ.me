@@ -1,0 +1,20 @@
+# Forex Backtester
+
+## 🚀 Overview
+A modular Python backtester for OANDA FX pairs, with an interactive Streamlit dashboard.
+
+## 📂 Repo Layout
+- `backtester.py` – core engine & CLI
+- `indicators.py` – RSI, ATR, MA, signal-strength
+- `simulator.py` – ATR-based trailing stops
+- `strategy.py` – entry logic, returns `Trade` objects
+- `trade.py` – `Trade` class + `to_dict()`
+- `dashboard.py` – Streamlit UI
+- `main.py` – alternative CLI entry point
+
+## ⚙️ Installation
+
+1. Clone the repo  
+   ```bash
+   git clone https://github.com/yourusername/forex-bot-dashboard.git
+   cd forex-bot-dashboard
